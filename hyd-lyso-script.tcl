@@ -1,5 +1,5 @@
 # Load the protein structure (replace 'protein.pdb' with your actual file)
-mol new /Users/maddalena/Nextcloud/01-SU/simulations/20-gromacs-lyso/2020-04-15/1AKI_solv.gro
+mol new /vmd-pdb/1AKI_solv.gro
 
 display resize 3840 2160
 
@@ -123,8 +123,5 @@ axes location off
 
 
 # render, Full HD  1920 1080, 4k 3840 2160, 8k 7680 4320, 
-# render TachyonInternal lysozyme-hydration.tga -aasamples 32 -res 7680 4320
-#render TachyonInternal lysozyme-hydration.tga -aasamples 32 -res 7680 4320
-
 render TachyonInternal lysozyme-bulk.tga -aasamples 64 -res 3840 2160 -ao 1 -aosamples 128 -shadows 1 -shiny 1.0 -light_samples 16
 
