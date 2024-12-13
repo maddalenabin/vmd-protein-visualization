@@ -1,8 +1,5 @@
 # Load the protein structure (replace 'protein.pdb' with your actual file)
-# mol new /Users/maddalena/Nextcloud/01-SU/projects/25-phd-thesis/05-figures/vmd/7u5l.pdb
-#mol new /Users/maddalena/Nextcloud/01-SU/projects/25-phd-thesis/05-figures/vmd/1hzh.pdb
-# mol new /Users/maddalena/Nextcloud/01-SU/simulations/20-gromacs-lyso/2020-04-15/1AKI_solv.gro
-mol new /Users/maddalena/Nextcloud/01-SU/simulations/20-gromacs-lyso/2020-04-15/1AKI.pdb
+mol new /vmd-pdb/1AKI.pdb
 
 display resize 3840 2160
 
@@ -45,11 +42,7 @@ axes location off
 
 rotate x by 20
 rotate y by 180
-#rotate x by 70
 #rotate z by 230
-#rotate x by 70
-#rotate y by 180
-#rotate z by 20
 scale by 1.5
 
 # render, Full HD  1920 1080, 4k 3840 2160, 8k 7680 4320, 
